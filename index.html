@@ -21,15 +21,14 @@
     <textarea id="source">
       Loading slides...
     </textarea>
-    <script>
+  <script>
     fetch('README.md')
-      .then(response => {
-        if (!response.ok) throw new Error('Could not load README.md');
-        return response.text();
-      })
+      .then(response => response.text())
       .then(text => {
-        document.getElementById('source').value = text;
-        remark.create(); // initialize the slideshow
+        // Create the slideshow with the fetched text
+        remark.create({
+          source: text
+        });
       })
       .catch(err => {
         document.getElementById('source').value = 'Error loading slides:\n' + err;
