@@ -22,9 +22,9 @@
       Loading slides...
     </textarea>
     <script>
-    fetch('slides.md')
+    fetch('README.md')
       .then(response => {
-        if (!response.ok) throw new Error('Could not load slides.md');
+        if (!response.ok) throw new Error('Could not load README.md');
         return response.text();
       })
       .then(text => {
