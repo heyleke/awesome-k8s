@@ -1,1 +1,1 @@
-`https://heyleke.github.io/awesome-k8s/#1`
+https://heyleke.github.io/awesome-k8s/#1
