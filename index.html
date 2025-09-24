@@ -3,6 +3,7 @@
   <head>
     <title>My Awesome K8S list</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript"></script>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
@@ -21,17 +22,18 @@
       Loading slides...
     </textarea>
     <script>
-    fetch('README.md')
-      .then(response => response.text())
+    fetch('slides.md')
+      .then(response => {
+        if (!response.ok) throw new Error('Could not load slides.md');
+        return response.text();
+      })
       .then(text => {
         document.getElementById('source').value = text;
         remark.create(); // initialize the slideshow
+      })
+      .catch(err => {
+        document.getElementById('source').value = 'Error loading slides:\n' + err;
       });
-    </script>
-    <script src="https://remarkjs.com/downloads/remark-latest.min.js" type="text/javascript">
-    </script>
-    <script type="text/javascript">
-      var slideshow = remark.create();
-    </script>
+  </script>
   </body>
 </html>
