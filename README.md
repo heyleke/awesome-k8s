@@ -17,20 +17,20 @@ https://heyleke.github.io/awesome-k8s/#1
 
 # Fundamentals
 
-Understanding container: Jerome Petazzoni
-Infrastructure as code, gitops
-Devops handbook, second way --> feedback loop
-Monitoring
-Redundantie (dev->staging->prod)
-State VS Stateless
+* Understanding container: Jerome Petazzoni
+* Infrastructure as code, gitops
+* Devops handbook, second way --> feedback loop
+* Monitoring
+* Redundantie (dev->staging->prod)
+* State VS Stateless
 
 ---
 
 # Interesting Material
 
-Nesc
-argo: CD (gitops), workflows, events, ...
-Secrets: openbao + external-secrets operator
+* Nesc
+* argo: CD (gitops), workflows, events, ...
+* Secrets: openbao + external-secrets operator
 
 ---
 
@@ -42,7 +42,7 @@ https://learnk8s.io
 
 # Miscellaneous
 
-Kelsey Hightower
-K8s documentary
-Ricardo Rocha
+* Kelsey Hightower
+* K8s documentary
+* Ricardo Rocha
 
