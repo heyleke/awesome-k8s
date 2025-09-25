@@ -15,7 +15,7 @@ https://heyleke.github.io/awesome-k8s/#1
 
 # Fundamentals
 
-* Understanding container:
+* Understanding containers:
    - Cgroups, namespaces, and beyond: what are containers made from?
    - https://www.youtube.com/watch?v=sK5i-N34im8 Jerome Petazzoni
 * Infrastructure as code, fundament of gitops
@@ -29,7 +29,8 @@ https://heyleke.github.io/awesome-k8s/#1
 # Interesting Material
 
 * Nesc:
-   - KCD Helsinki 2025 - Kai Zhang: Building Managed Bare Metal Kubernetes Service At Scale With 100%
+   - KCD Helsinki 2025 - Kai Zhang: Building Managed Bare Metal Kubernetes Service At Scale With 100% open source software
+   - https://www.youtube.com/watch?v=TJThJT9Domk
 * argo: CD (gitops), workflows, events, ...
 * Secrets: openbao + external-secrets operator
 
