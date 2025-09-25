@@ -1,5 +1,3 @@
-class: center, middle
-
 # My awesome K8S list
 
 https://heyleke.github.io/awesome-k8s/#1
